@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceContracts", "Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkModelGDAContract", "NetworkModelGDAContract\NetworkModelGDAContract.csproj", "{44ED8F55-8954-4AF7-8017-11623D7688E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLabsApp", "ModelLabsApp\ModelLabsApp.csproj", "{91290595-9856-410E-AFFD-621E2A6D8E37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{44ED8F55-8954-4AF7-8017-11623D7688E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44ED8F55-8954-4AF7-8017-11623D7688E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44ED8F55-8954-4AF7-8017-11623D7688E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91290595-9856-410E-AFFD-621E2A6D8E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91290595-9856-410E-AFFD-621E2A6D8E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91290595-9856-410E-AFFD-621E2A6D8E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91290595-9856-410E-AFFD-621E2A6D8E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{F802EAA5-4748-44BE-908F-DF63E30C3621} = {53CE37F2-A043-4FC9-87B9-536F8728554A}
 		{C2A2E1CE-41FA-4023-BB07-F8A41BA49488} = {856B98D4-35E7-4C14-9AEC-6E1F27ED4D28}
 		{44ED8F55-8954-4AF7-8017-11623D7688E9} = {C2A2E1CE-41FA-4023-BB07-F8A41BA49488}
+		{91290595-9856-410E-AFFD-621E2A6D8E37} = {856B98D4-35E7-4C14-9AEC-6E1F27ED4D28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46D49F35-8D45-4C18-8BA8-4425D83F4929}

@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetworkModelService", "NetworkModelService", "{856B98D4-35E7-4C14-9AEC-6E1F27ED4D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMParser", "CIMParser\CIMParser.csproj", "{3FE9F617-557A-472A-B739-23832740E719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CIMParser", "CIMParser\CIMParser.csproj", "{3FE9F617-557A-472A-B739-23832740E719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMProfileCreator", "CIMProfileCreator\CIMProfileCreator.csproj", "{68CACDB4-5D51-4371-B4D9-1CA4A6C30E70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{3FE9F617-557A-472A-B739-23832740E719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FE9F617-557A-472A-B739-23832740E719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FE9F617-557A-472A-B739-23832740E719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CACDB4-5D51-4371-B4D9-1CA4A6C30E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CACDB4-5D51-4371-B4D9-1CA4A6C30E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CACDB4-5D51-4371-B4D9-1CA4A6C30E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CACDB4-5D51-4371-B4D9-1CA4A6C30E70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3FE9F617-557A-472A-B739-23832740E719} = {856B98D4-35E7-4C14-9AEC-6E1F27ED4D28}
+		{68CACDB4-5D51-4371-B4D9-1CA4A6C30E70} = {856B98D4-35E7-4C14-9AEC-6E1F27ED4D28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46D49F35-8D45-4C18-8BA8-4425D83F4929}

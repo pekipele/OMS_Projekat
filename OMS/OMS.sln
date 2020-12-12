@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMProfileCreator", "CIMPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMParser", "CIMParser\CIMParser.csproj", "{8F1C7573-9040-4A59-A7B7-BE19401A16BA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3AD9421D-39F2-4473-B847-0DE0E9A33830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{1A25E169-5AD7-48A8-B29C-80714B207DFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{8F1C7573-9040-4A59-A7B7-BE19401A16BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F1C7573-9040-4A59-A7B7-BE19401A16BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F1C7573-9040-4A59-A7B7-BE19401A16BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A25E169-5AD7-48A8-B29C-80714B207DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A25E169-5AD7-48A8-B29C-80714B207DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A25E169-5AD7-48A8-B29C-80714B207DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A25E169-5AD7-48A8-B29C-80714B207DFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{68CACDB4-5D51-4371-B4D9-1CA4A6C30E70} = {856B98D4-35E7-4C14-9AEC-6E1F27ED4D28}
 		{8F1C7573-9040-4A59-A7B7-BE19401A16BA} = {856B98D4-35E7-4C14-9AEC-6E1F27ED4D28}
+		{1A25E169-5AD7-48A8-B29C-80714B207DFB} = {3AD9421D-39F2-4473-B847-0DE0E9A33830}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46D49F35-8D45-4C18-8BA8-4425D83F4929}

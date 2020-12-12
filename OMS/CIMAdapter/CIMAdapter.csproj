@@ -31,8 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PowerTransformerCIMProfile_Labs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\PowerTransformerCIMProfile_Labs.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,9 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransformAndLoadReport.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Lib\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CIMParser\CIMParser.csproj">
       <Project>{8f1c7573-9040-4a59-a7b7-be19401a16ba}</Project>
@@ -62,6 +65,13 @@
       <Project>{1a25e169-5ad7-48a8-b29c-80714b207dfb}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NetworkModelGDAContract\NetworkModelGDAContract.csproj">
+      <Project>{44ed8f55-8954-4af7-8017-11623d7688e9}</Project>
+      <Name>NetworkModelGDAContract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lib\PowerTransformerCIMProfile_Labs.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
